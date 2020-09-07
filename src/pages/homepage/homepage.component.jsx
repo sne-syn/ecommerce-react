@@ -1,6 +1,6 @@
 import React from 'react';
+import Menu from './../../components/menu/menu.component';
 import './homepage.styles.scss';
-import Menu from './../components/menu/menu.component';
 
 export const HomePage = () => (
   <section className='homepage'>
@@ -8,3 +8,4 @@ export const HomePage = () => (
   </section>
 )
 
+export default HomePage;
